@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+h1, h2, h3, h4, h5, p {
+  padding: 0;
+  margin: 0; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+body {
+  background-color: #F9F9F9;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+.text-h2 {
+  font-size: 48px;
+  color: #000;
+  font-weight: 500;
+  line-height: 164.063%; }
+
+.text-p {
+  font-size: 16px;
+  color: #727272; }
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto; }
+
+.headerNav__flex {
+  display: flex;
+  padding-top: 64px;
+  margin-bottom: 120px;
+  justify-content: space-between;
+  align-items: center; }
+
+.headerNav-icon {
+  padding-left: 22px; }
+
+.headerNav-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0px 30px 2px 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-weight: 400;
+  line-height: 164.063%;
+  /* 26.25px */ }
+  .headerNav-menu a {
+    text-decoration: none;
+    color: #000; }
+    .headerNav-menu a:hover {
+      color: #34547A;
+      font-weight: 500; }
+  .headerNav-menu li {
+    margin-right: 42px; }
+    .headerNav-menu li:last-child {
+      margin-right: 0px; }
+
+.headerRequest__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .headerRequest__flex .headerContent-img {
+    padding-left: 102px; }
+  .headerRequest__flex .headerRequest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px; }
+  .headerRequest__flex .p-request {
+    max-width: 540px; }
+  .headerRequest__flex .requestBtn {
+    width: 225px;
+    height: 65px;
+    border-style: none;
+    background-color: #34547A; }
+    .headerRequest__flex .requestBtn p {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      line-height: 164.063%;
+      /* 26.25px */
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      padding: 25px 30px 25px 30px;
+      min-width: 143px; }
